@@ -44,7 +44,7 @@
       <a href="#about">About</a>
       <a href="#services">Projects</a>
       <a href="#education">Education</a>
-      <a href="#gallery">Gallery</a>
+      <a href="#gallery">Blogs</a>
       <a href="#contact">Contact</a>
     </div>
   </nav>
@@ -177,8 +177,8 @@
         </div>
 
         <div class="service">
-          <i class="icon fas fa-database"></i>
-          <h4>Manage Databases</h4>
+          <i class="icon fas fa-gem"></i>
+          <h4>Ruby</h4>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
         </div>
 
@@ -253,58 +253,130 @@
     </div>
   </section>
 
-  <!-- Gallery -->
+  <!-- Blogs -->
   <section id="gallery" class="ray">
     <div class="inner-width">
-      <h1 class="section-title">Gallery</h1>
+      <h1 class="section-title">Blogs</h1>
       <div class="gallery">
-        <a href="images/gallery/1.jpg" class="work">
+        <a onclick="togglePopup()" class="work">
           <img src="images/gallery/1.jpg" alt="">
           <div class="info">
-            <h3>Work Title</h3>
-            <div class="cat">Music, Headset</div>
+            <h3>Blog 1</h3>
+            <div class="cat">12/01/2021</div>
           </div>
         </a>
+        <div class="popup" id="popup-1">
+          <div class="overlay"></div>
+          <div class="content">
+            <div class="close-btn" onclick="togglePopup()">&times;</div>
+            <h1>Blog 1</h1>
+            <img src="images/gallery/1.jpg" width="39.6%" height="21.6%" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ea velit ratione? Inventore, sed esse
+              earum numquam blanditiis saepe, perspiciatis adipisci nostrum laboriosam laudantium nemo quam eligendi
+              voluptatem debitis animi corrupti quibusdam suscipit eius quas veritatis repudiandae. Explicabo, esse
+              illum error consequuntur alias fugiat sapiente officia, obcaecati quis cumque odit?</p>
+          </div>
+        </div>
 
-        <a href="images/gallery/2.jpg" class="work">
+        <a onclick="togglePopup2()" class="work">
           <img src="images/gallery/2.jpg" alt="">
           <div class="info">
-            <h3>Work Title</h3>
-            <div class="cat">Music, Headset</div>
+            <h3>Blog 2</h3>
+            <div class="cat">13/01/2021</div>
           </div>
         </a>
+        <div class="popup" id="popup-2">
+          <div class="overlay"></div>
+          <div class="content">
+            <div class="close-btn" onclick="togglePopup2()">&times;</div>
+            <h1>Blog 2</h1>
+            <img src="/images/gallery/2.jpg" width="39.6%" height="21.6%" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ea velit ratione? Inventore, sed esse
+              earum numquam blanditiis saepe, perspiciatis adipisci nostrum laboriosam laudantium nemo quam eligendi
+              voluptatem debitis animi corrupti quibusdam suscipit eius quas veritatis repudiandae. Explicabo, esse
+              illum error consequuntur alias fugiat sapiente officia, obcaecati quis cumque odit?</p>
+          </div>
+        </div>
 
-        <a href="images/gallery/3.jpg" class="work">
+        <a onclick="togglePopup3()" class="work">
           <img src="images/gallery/3.jpg" alt="">
           <div class="info">
-            <h3>Work Title</h3>
-            <div class="cat">Music, Headset</div>
+            <h3>Blog 3</h3>
+            <div class="cat">14/01/2021</div>
           </div>
         </a>
+        <div class="popup" id="popup-3">
+          <div class="overlay"></div>
+          <div class="content">
+            <div class="close-btn" onclick="togglePopup3()">&times;</div>
+            <h1>Blog 3</h1>
+            <img src="/images/gallery/3.jpg" width="39.6%" height="21.6%" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ea velit ratione? Inventore, sed esse
+              earum numquam blanditiis saepe, perspiciatis adipisci nostrum laboriosam laudantium nemo quam eligendi
+              voluptatem debitis animi corrupti quibusdam suscipit eius quas veritatis repudiandae. Explicabo, esse
+              illum error consequuntur alias fugiat sapiente officia, obcaecati quis cumque odit?</p>
+          </div>
+        </div>
 
-        <a href="images/gallery/4.jpg" class="work">
+        <a onclick="togglePopup4()" class="work">
           <img src="images/gallery/4.jpg" alt="">
           <div class="info">
-            <h3>Work Title</h3>
-            <div class="cat">Music, Headset</div>
+            <h3>Blog 4</h3>
+            <div class="cat">15/01/2021</div>
           </div>
         </a>
+        <div class="popup" id="popup-4">
+          <div class="overlay"></div>
+          <div class="content">
+            <div class="close-btn" onclick="togglePopup4()">&times;</div>
+            <h1>Blog 4</h1>
+            <img src="/images/gallery/4.jpg" width="39.6%" height="21.6%" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ea velit ratione? Inventore, sed esse
+              earum numquam blanditiis saepe, perspiciatis adipisci nostrum laboriosam laudantium nemo quam eligendi
+              voluptatem debitis animi corrupti quibusdam suscipit eius quas veritatis repudiandae. Explicabo, esse
+              illum error consequuntur alias fugiat sapiente officia, obcaecati quis cumque odit?</p>
+          </div>
+        </div>
 
-        <a href="images/gallery/5.jpg" class="work">
+        <a onclick="togglePopup5()" class="work">
           <img src="images/gallery/5.jpg" alt="">
           <div class="info">
-            <h3>Work Title</h3>
-            <div class="cat">Music, Headset</div>
+            <h3>Blog 5</h3>
+            <div class="cat">16/01/2021</div>
           </div>
         </a>
+        <div class="popup" id="popup-5">
+          <div class="overlay"></div>
+          <div class="content">
+            <div class="close-btn" onclick="togglePopup5()">&times;</div>
+            <h1>Blog 5</h1>
+            <img src="/images/gallery/5.jpg" width="39.6%" height="21.6%" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ea velit ratione? Inventore, sed esse
+              earum numquam blanditiis saepe, perspiciatis adipisci nostrum laboriosam laudantium nemo quam eligendi
+              voluptatem debitis animi corrupti quibusdam suscipit eius quas veritatis repudiandae. Explicabo, esse
+              illum error consequuntur alias fugiat sapiente officia, obcaecati quis cumque odit?</p>
+          </div>
+        </div>
 
-        <a href="images/gallery/6.jpg" class="work">
+        <a onclick="togglePopup6()" class="work">
           <img src="images/gallery/6.jpg" alt="">
           <div class="info">
-            <h3>Work Title</h3>
-            <div class="cat">Music, Headset</div>
+            <h3>Blog 6</h3>
+            <div class="cat">17/01/2021</div>
           </div>
         </a>
+        <div class="popup" id="popup-6">
+          <div class="overlay"></div>
+          <div class="content">
+            <div class="close-btn" onclick="togglePopup6()">&times;</div>
+            <h1>Blog 6</h1>
+            <img src="/images/gallery/6.jpg" width="39.6%" height="21.6%" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ea velit ratione? Inventore, sed esse
+              earum numquam blanditiis saepe, perspiciatis adipisci nostrum laboriosam laudantium nemo quam eligendi
+              voluptatem debitis animi corrupti quibusdam suscipit eius quas veritatis repudiandae. Explicabo, esse
+              illum error consequuntur alias fugiat sapiente officia, obcaecati quis cumque odit?</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
