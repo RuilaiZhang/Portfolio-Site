@@ -415,12 +415,12 @@ section{
   width: 10%;
 }
 
-.php:after{
+.ruby:after{
   width: 10%;
 }
 
-.mysql:after{
-  width: 10%;
+.python:after{
+  width: 50%;
 }
 
 .cs:after{
@@ -681,7 +681,7 @@ footer{
 
 .goTop{
   position: fixed;
-  z-index: 999;
+  z-index: 3;
   bottom: 40px;
   right: 40px;
   width: 40px;
@@ -868,19 +868,24 @@ footer{
   left:50%;
   transform:translate(-50%,-50%) scale(0);
   background:#fff;
-  width:80%;
-  height:auto;
-  z-index:2;
+  width:70%;
+  height:70%;
+  z-index:4;
   text-align:center;
   padding:20px;
   box-sizing:border-box;
   font-size: 20px;
   font-family:"Open Sans",sans-serif;
 }
+
+/* .popup .content .navbar-menu{
+  display: flex;
+  justify-content: space-between;
+} */
  
 .popup .close-btn {
   cursor:pointer;
-  position:absolute;
+  position:fixed;
   right:15px;
   top:15px;
   width:30px;
@@ -900,9 +905,10 @@ footer{
  
 .popup.active .content {
   position:fixed;
-  top:50%;
+  top:55%;
   background: url(../images/bbp.jpg) no-repeat center;
   opacity: 0.9;
+  overflow-y: scroll;
   transition:all 300ms ease-in-out;
   transform:translate(-50%,-50%) scale(1);
 }
