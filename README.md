@@ -14,7 +14,7 @@
 ## Sitemap:
     https://github.com/RuilaiZhang/Portfolio-Site/blob/main/Portfolio%20Sitemap.png
 ## Screenshots:
-
+    https://github.com/RuilaiZhang/Portfolio-Site/tree/main/Screenshots
 ## Target audience:
     Potential future employer & classmates & Educators
 ## Deployment Platform:
